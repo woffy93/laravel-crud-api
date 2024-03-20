@@ -25,11 +25,11 @@ to update a book
 
 **DELETE**`/api/book/{bookId}` to delete/remove book
 
-##Installation and running
+## Installation and running
 The app is dockerized, it requires docker and composer to run.
 To have the app running use the following commands:
 
-`docker compose build` To build and run the app that will be served on localhost:8000
+`docker compose build` To build the docker image
 
 `docker compose up -d crudapi` To build and run the app that will be served on localhost:8000
 
