@@ -2,7 +2,7 @@
 
 A simple Laravel CRUD api that models a book storage system (or library) using "Pest" for testing
 
-###Endpoints
+### Endpoints
 **GET**`/api/book` to get a paginated list of books
 
 **GET**`/api/book/{bookId}` to get a specific book
@@ -15,7 +15,7 @@ A simple Laravel CRUD api that models a book storage system (or library) using "
 }`
 to create/store a book
 
-**PUT**`/api/book` body:
+**PUT**`/api/book/{bookId}` body:
 `{
 'name': <string>,
 'author': <string>,
